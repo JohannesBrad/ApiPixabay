@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador Imágenes Grid</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero_content">
+            <div class="hero_content_picture">
+                <div class="header">
+                    <h1>All Pictures</h1>
+                    <nav class="content_search_nav">
+                        <div class="content_search_nav_link">
+                            <a href="#" class="nav_link">Fotos</a>
+                            <a href="#" class="nav_link">Ilustraciones</a>
+                            <a href="#" class="nav_link">Vectores</a>
+                            <a href="#" class="picture_description_link">Únete</a>
+                        </div>
+                    </nav>
+                </div>
+             
+                <div class="content_picture_description">
+                    <!-- <span>Hello!</span> -->
+                    <h2>Las mejores fotos compartidos por creadores talentosos.</h2>
+                    <p class="content_picture_description_text">Más de 1 millon de imágenes compartidas por nuestra talentosas comunidad de personas.</p>
+                    <div class="content_form">
+                        <form class="search_form" id="formulario">   
+                            <input class="text text_search" type="text" placeholder="Ingrese lo que desea." id="termino_busqueda">
+                            <input type="submit" value="Buscar" class="btn_search">
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section >
+        
+        <div id="resultado" class="container mx-auto mt-10  flex flex-wrap"></div>
+        
+    </section>
+    
+    
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
